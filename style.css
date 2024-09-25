@@ -13,20 +13,20 @@ h1 {
     color:#0d4129
 }
 
+#head {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+}
+
 .menu {
     background-color:#ccc; 
     margin-top: 10px;
     font-size: 20px;
     max-width: 960px;
     display: flex;
+    justify-content: flex-end;
     
-}
-
-#top {
-    width: 100%;
-    border-bottom: 1px solid black;
-    background-color: #ddd;
-    padding: 5px;
 }
 
 .menu_el {
@@ -82,7 +82,6 @@ table {
     max-width: 960px;
     text-align: center;
     line-height: 20px;
-    text-align: center;
 }
 th {
     border: 1px solid black;
@@ -100,12 +99,9 @@ tr:nth-child(odd) { background: #fff; }
     background-color: #ddd;
     padding: 10px;
     margin-top: 10px;
-    width: 400px;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    
 }
 
 a {
@@ -116,7 +112,6 @@ a {
 h2 {
     color:#220c34; 
     font-size: 25px;
-    
 }
 
 footer {
@@ -126,8 +121,4 @@ footer {
     border-top: 1px solid black;
     padding: 5px;
     margin-top: 10px;
-}
-
-.inner_footer {
-    color: #000;
 }
